@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/GavsPokerCalc3/static/css/main.cc810cec.css",
-    "main.js": "/GavsPokerCalc3/static/js/main.a86f71b7.js",
+    "main.css": "/GavsPokerCalc3/static/css/main.239d6ac9.css",
+    "main.js": "/GavsPokerCalc3/static/js/main.aa704b9e.js",
     "index.html": "/GavsPokerCalc3/index.html",
-    "main.cc810cec.css.map": "/GavsPokerCalc3/static/css/main.cc810cec.css.map",
-    "main.a86f71b7.js.map": "/GavsPokerCalc3/static/js/main.a86f71b7.js.map"
+    "main.239d6ac9.css.map": "/GavsPokerCalc3/static/css/main.239d6ac9.css.map",
+    "main.aa704b9e.js.map": "/GavsPokerCalc3/static/js/main.aa704b9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc810cec.css",
-    "static/js/main.a86f71b7.js"
+    "static/css/main.239d6ac9.css",
+    "static/js/main.aa704b9e.js"
   ]
 }

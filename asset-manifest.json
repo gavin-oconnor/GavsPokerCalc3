@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GavsPokerCalc3/static/css/main.cc810cec.css",
+    "main.js": "/GavsPokerCalc3/static/js/main.00f513d0.js",
+    "index.html": "/GavsPokerCalc3/index.html",
+    "main.cc810cec.css.map": "/GavsPokerCalc3/static/css/main.cc810cec.css.map",
+    "main.00f513d0.js.map": "/GavsPokerCalc3/static/js/main.00f513d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc810cec.css",
+    "static/js/main.00f513d0.js"
+  ]
+}

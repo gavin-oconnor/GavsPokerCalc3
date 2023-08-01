@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,141 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.negative-profit {
+  color: red;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  cursor: default;
+  height: 2.5rem;  
+  text-align: center;
+}
+
+.profit {
+  color: green;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.playerinput-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  width: 110px;
+  border: none;
+  outline: none;
+  border-bottom: 1px lightgrey solid;
+  padding-left: 10px;
+} 
+
+input[type="number"] {
+  font-size: 18px;
+  width: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px lightgrey solid;
+}
+
+
+
+.playerinput-input-4 {
+  width: 30px;
+}
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.category-name {
+  width: 110px;
+  margin-left: 0px;
+  padding-left: 60px;
+}
+.category-number-1 {
+  width: 50px;
+  margin-left: 0px;
+
+}
+.category-number-2 {
+  width: 80px;
+  margin-left: 0px;
+}
+.category-profit {
+  margin-left: 0px;
+  width: 70px;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(51, 146, 225);
+  font-weight: 550;
+  color: white;
+  font-size: 24px;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.btn:hover {
+  background-color: rgb(33, 100, 155);
+}
+
+.category-spacer-1 {
+  width: -5px;
+}
+
+.category-spacer-2 {
+  width: 10px;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
+
+.totals-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+
+
+
+.playerinput-input {
+  border: none;
+  outline: none;
+  border-bottom: 1px lightgrey solid;
+  border-left: 1px lightgrey solid;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
